@@ -7,10 +7,6 @@ layout: default
 # סימונים אסימפטוטים
 
 **קריאה נדרשת: יחסי שקילות, חשבון גבולות וגבולות חלקיים**
-$$
-\newcommand{RP}{\mathbb{R}_+}
-\newcommand{Nat}{\mathbb{N}}
-$$
 
 המטרה של ניתוח אלגוריתמים היא כאמור למצוא חסם הדוק ככל הניתן על כמות המשאבים שהאלגוריתם לוקח כתלות בקלט. הבעיה המרכזית שצצה היא שכל מחשב פועל בצורה שונה (מבחינת חומרה). עלינו להגדיר שפה משותפת עבור כל האלגוריתמים הללו כך שיהיה זה בסדר להתעלם מ"overheads" של חישובים ושאר דברים שאין המתכנת יכול לקחת עליהם שליטה.
 
@@ -47,5 +43,5 @@ $$
 **סימון $o$** הינו:
 
 $$
-	o(f(n)) := \{\forall c\in \RP \space \exists N_0 \in \Nat \space \text{ s.t. } \space\forall N_0 < n \in \mathbb{N}: \space g(n) \le c \cdot f(n) \}
+	o(f(n)) := \{\forall c\in \mathbb{R}_+ \space \exists N_0 \in \mathbb{N} \space \text{ s.t. } \space\forall N_0 < n \in \mathbb{N}: \space g(n) \le c \cdot f(n) \}
 $$
