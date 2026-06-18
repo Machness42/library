@@ -5,9 +5,7 @@ layout: default
 
 ---
 # סימונים אסימפטוטים
-$$
-\newcommand{RP}{\mathbb{R_+}}
-$$
+
 **קריאה נדרשת: יחסי שקילות, חשבון גבולות וגבולות חלקיים**
 
 המטרה של ניתוח אלגוריתמים היא כאמור למצוא חסם הדוק ככל הניתן על כמות המשאבים שהאלגוריתם לוקח כתלות בקלט. הבעיה המרכזית שצצה היא שכל מחשב פועל בצורה שונה (מבחינת חומרה). עלינו להגדיר שפה משותפת עבור כל האלגוריתמים הללו כך שיהיה זה בסדר להתעלם מ"overheads" של חישובים ושאר דברים שאין המתכנת יכול לקחת עליהם שליטה.
@@ -45,7 +43,7 @@ $$
 **סימון $o$** הינו:
 
 $$
-	o(f(n)) := \{g(n) : \mathbb{N} \to \RP |\forall c\in \mathbb{R}_+ \space \exists N_0 \in \mathbb{N} \space \text{ s.t. } \space\forall N_0 < n \in \mathbb{N}: \space g(n) \le c \cdot f(n) \}
+	o(f(n)) := \{g(n) : \mathbb{N} \to \mathbb{R}_+ |\forall c\in \mathbb{R}_+ \space \exists N_0 \in \mathbb{N} \space \text{ s.t. } \space\forall N_0 < n \in \mathbb{N}: \space g(n) \le c \cdot f(n) \}
 $$
 
 כאשר המשמעות היא של "קטן ממש" (אסימפטוטית) או קטן יותר מבחינת סדר הגודל.
@@ -53,7 +51,7 @@ $$
 **סימון $\omega$** הינו:
 
 $$
-\omega(f(n)) := \{ g:\mathbb{N} \to \RP | \forall c\in \RP \space \exists N_0 \in \mathbb{N} \space \text{ s.t. } \space \forall N_0 < n \in \mathbb{N}: c\cdot f(n) \le g(n) \}
+\omega(f(n)) := \{ g:\mathbb{N} \to \mathbb{R}_+ | \forall c\in \mathbb{R}_+ \space \exists N_0 \in \mathbb{N} \space \text{ s.t. } \space \forall N_0 < n \in \mathbb{N}: c\cdot f(n) \le g(n) \}
 $$
 
 ומייצג "גדול ממש" (אסימפטוטית) או גדול יותר מבחינת סדר הגודל.
