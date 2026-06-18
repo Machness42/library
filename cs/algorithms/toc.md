@@ -1,4 +1,4 @@
-חזרה ל[דף הבית]((https://machness42.github.io/library)
+חזרה ל[דף הבית](https://machness42.github.io/library)
 
 ---
 # תוכן עניינים
