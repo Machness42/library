@@ -63,6 +63,7 @@ $$
 | $$g(n) \space \space \text{"}\le\text{"} \space \space f(n)$$ | $$g(n) \space \space \text{"}\ge\text{"} \space \space f(n)$$ | $$g(n) \space \space \text{"}\approx\text{"} \space \space f(n)$$ | $$g(n) \space \space \text{"}<\text{"} \space \space f(n)$$ | $$g(n) \space \space \text{"}>\text{"} \space \space f(n)$$ |
 
 בואו ננסה להבין את ההגדרה עם דוגמה.
+
 **תרגיל.** הוכיחו כי $2n^2+3 = O(n^2)$
 
 **פתרון.** עלינו למצוא קבוע $c$ ושלב  $N_0$ כך שלכל $n>N_0$ (טבעי כמובן) נקבל:
@@ -88,7 +89,7 @@ $$
 $$
 f(n) \le f(n) \le f(n)
 $$
-- סימטריות: נניח ש $g(n)\in \Theta(f(n))$. עלינו להוכיח כי $f(n)\in \Theta(g(n))$. עלינו למצוא $c_1 ,c_2 \in \mathbb{R}_+$ וכן $N_0 \in \mathbb{N}$ כך שלכל $n>N_0$ מתקיים כי:
+- סימטריות: נניח ש $g(n)\in \Theta(f(n))$ ועלינו להוכיח כי $f(n)\in \Theta(g(n))$. לפיכך, עלינו למצוא קבועים $c_1 ,c_2 \in \mathbb{R}_+$ וכן $N_0 \in \mathbb{N}$ כך שלכל $n>N_0$ מתקיים כי:
 $$
 c_1 \cdot f(n) \le g(n) \le c_2 \cdot f(n)
 $$
