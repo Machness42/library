@@ -99,4 +99,4 @@ c_1 \cdot g(n) \le f(n) \le c_2 \cdot g(n)
 $$
 נבחר $N_0 = N_0'$ וכן $c_2 =\frac{1}{c_1'},\space c_1 = \frac{1}{c_2'}$  ואכן נקבל כמבוקש (מחלקים את שני האגפים בקבוע ומקבלים שהחסם התחתון של $f$ הינו חסם עליון על $g$, וכן להיפך).
 
-- טרנזיטיביות: תהיינה $f,g,h:\mathbb{N} \to \mathbb{R}_+$ כך ש $f(n)\in \Theta(g(n))$ וכן $g(n)\in \Theta(h(n))$. נוכיח כי $f(n) \in \Theta(h(n))$.
+- טרנזיטיביות: תהיינה $f,g,h:\mathbb{N} \to \mathbb{R}_+$ כך ש $f(n)\in \Theta(g(n))$ וכן $g(n)\in \Theta(h(n))$. נוכיח כי $f(n) \in \Theta(h(n))$. כאמור, מתקיים כי
