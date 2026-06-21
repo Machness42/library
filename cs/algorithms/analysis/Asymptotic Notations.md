@@ -121,7 +121,7 @@ $$
 c_1^h \cdot g(n) \le h(n) \le c_2^h \cdot g(n)
 $$
 
-נבחר $N=\max\{N_g,N_h\}$ כך שכל אי השוויונים יתקיימו במקביל. כעת נזכור כי:
+נבחר $N_0 = \max \lbrace N_g, N_h \rbrace$ כך שכל אי השוויונים יתקיימו במקביל. כעת נזכור כי:
 
 $$
 c_1^g \cdot f(n) \le g(n)
@@ -143,7 +143,7 @@ $$
 
 שתי הטענות הבאות חשובות מאוד לניתוח של פונקציות ולכן אוכיח אותם. אוסיף עוד טענות (חשובות) אך הם יישארו לצערי כתרגיל בית לקוראים המוכשרים.
 
-**טענה.** תהיינה $f,g:\mathbb{N} \to \mathbb{R}_+$. אזי $f(n)+g(n)\in \Theta(\max \\{f(n),g(n)\\})$.
+**טענה.** תהיינה $f,g:\mathbb{N} \to \mathbb{R}_+$. אזי $f(n)+g(n)\in \Theta(\max \lbrace f(n),g(n)\rbrace)$.
 
 **הוכחה.** נבחר $N_0 = 1$. נבחין כי:
 
@@ -173,7 +173,7 @@ $$
 c_1^g \cdot h_g(n) \le g(n) \le c_2^g\cdot h_g(n) 
 $$
 
-ולכן אם נבחר $c_1 = c_1^f \cdot c_1^g$, $c_2 = c_2^f \cdot c_2^g$ וכן $N_0 = \max \\\\{N_f, N_g\\\\}$ נקבל כמבוקש.
+ולכן אם נבחר $c_1 = c_1^f \cdot c_1^g$, $c_2 = c_2^f \cdot c_2^g$ וכן $N_0 = \max \lbrace N_f, N_g\rbrace$ נקבל כמבוקש.
 	
 בכיוון $\boxed{\supseteq}$ נניח כי $h(n) \in \Theta(f(n)\cdot(g(n))$. עלינו למצוא $h_f \in \Theta(f(n))$ וכן $h_g \in \Theta(g(n))$ כך ש $h=h_f(n) \cdot g_h(n)$. למעשה, בואו נבחר ב
 
